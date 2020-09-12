@@ -33,7 +33,7 @@ int main(int argc,                               //to sore the count of comandli
     if(argc == 1 || argc>3)                      //if command line arguments are 1 or more than 3
     {
         printf("Error : Invalid number of arguments ,\nfor help use %s <-h> or %s <-H>\n",argv[0],argv[0]);
-        return 1;
+        return -1;
     }
     else if((strcmp(argv[1],"-H")==0) || (strcmp(argv[1],"-h")==0) && argc==2)   //if comandline arguments are 2 and -h or -H is used
     {
@@ -50,7 +50,7 @@ int main(int argc,                               //to sore the count of comandli
         else                                     //if command line arguments are other than number
         {
             printf("Error : Invalid number of arguments ,\nfor help use %s <-h> or %s <-H>\n",argv[0],argv[0]);
-            return 1;
+            return -1;
         }
         iSum = iNo1 + iNo2;
         printf("Sum of %s %s is : %d\n",argv[1],argv[2],iSum);
@@ -58,6 +58,6 @@ int main(int argc,                               //to sore the count of comandli
     else                                        //if commandline arguments are 2 and other than -h or -H  
     {
         printf("Error : Invalid number of arguments ,\nfor help use %s <-h> or %s <-H>\n",argv[0],argv[0]);
-        return 1;
+        return -1;
     }
 }
