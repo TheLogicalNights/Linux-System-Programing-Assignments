@@ -1,0 +1,2 @@
+Write a program which accept file name from user and open that file and if file is not
+opened properly then display error message properly.
