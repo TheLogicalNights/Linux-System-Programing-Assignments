@@ -15,7 +15,7 @@ int main(
     if(argc==1)                                     //if there is only running executable i.e ./a.out or ./Myexe
     {
         printf("Error : Invalid number of arguments,\nUse %s <-h> or %s <-h> for help\n",argv[0],argv[0]);
-        return 1;
+        return -1;
     }
     else if((strcmp(argv[1],"-h")==0) || (strcmp(argv[1],"-H")==0) && argc==2)  //for ./a.out -h or ./a.out -H or ./Myexe -h or ./Myexe -H
     {
@@ -25,12 +25,12 @@ int main(
     else if(argc==2)                                //for ./a.out firstname or ./Myexe firstname
     {
         printf("Error : Invalid number of arguments,\nUse %s <-h> or %s <-h> for help\n",argv[0],argv[0]);
-        return 1;
+        return -1;
     }
     else if(argc==3)                                //for ./a.out firstname middlename  or ./Myexe firstname middlename
     {
         printf("Error : Invalid number of arguments,\nUse %s <-h> or %s <-h> for help\n",argv[0],argv[0]);
-        return 1;
+        return -1;
     }
     else if(argc==4) 
     {
@@ -49,12 +49,12 @@ int main(
         else                 //for having 4 command line arguments but other than firstname middlename and lastname 
         {
             printf("Error : Invalid arguments,\nUse %s <-h> or %s <-h> for help\n",argv[0],argv[0]);
-            return 1;
+            return -1;
         }
     }
     else
     {
         printf("Error : Invalid number of arguments,\nUse %s <-h> or %s <-h> for help\n",argv[0],argv[0]);
-        return 1;
+        return -1;
     }
 }
