@@ -1,0 +1,1 @@
+Write a program which accept file name and read first 5 characters from it.
