@@ -1,3 +1,7 @@
+/*
+	Problem statement : Accept filename as commandline argument and display information about file(metadata/info stored in iNode)
+*/
+
 #include<stdio.h>
 #include<sys/types.h>
 #include<fcntl.h>
