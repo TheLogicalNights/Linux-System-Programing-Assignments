@@ -1,3 +1,8 @@
+/*
+	Problem Statement : Accept filename and mode from user and open that file in that perticular mode if file doesn't open 
+			    display error message.
+*/
+
 #include<stdio.h>
 #include<fcntl.h>
 #include<unistd.h>
