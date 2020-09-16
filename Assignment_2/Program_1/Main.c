@@ -1,3 +1,7 @@
+/*
+	Problem Statement : Accept filename from user and open it
+*/
+
 #include<stdio.h>
 #include<fcntl.h>
 #include<unistd.h>
