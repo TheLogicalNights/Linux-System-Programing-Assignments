@@ -1,3 +1,8 @@
+/*
+	Problem Statement : Accept a filename and mode from user and check whether that file is accesible for that process in that perticular
+			    mode or not.
+*/
+
 #include<stdio.h>
 #include<unistd.h>
 #include<string.h>
