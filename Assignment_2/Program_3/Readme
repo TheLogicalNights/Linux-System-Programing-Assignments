@@ -1,0 +1,1 @@
+This is simple prject which check whether file is accessible to process in specific mode or not.Filename and mode should be given as command line argument.This project use make commands to build and execute.Use <make build> to build the project and use <make help> for more details about how to execute the project.
