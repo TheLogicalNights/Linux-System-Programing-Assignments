@@ -1,0 +1,2 @@
+This is simple project to open regular file in read mode.Filename should be pass as commandline argument.This project
+use make commands to build and execute.Use make build command to build the project and use make help to get more details about how to execute the project.
