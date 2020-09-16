@@ -1,0 +1,2 @@
+This is simple which open regular file in specific mode.Filename and mode should be given as command line argument.
+This project use make commands to build and execute.Use <make build> to build the project and use <make help> for more details about how to execute the project.
