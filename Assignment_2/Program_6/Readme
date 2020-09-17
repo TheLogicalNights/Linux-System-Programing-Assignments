@@ -1,0 +1,1 @@
+This is simple which open regular file in read mode and reads whole file.Filename should be given as command line argument.This project use make commands to build and execute.Use <make build> to build the project and use <make help> for more details about how to execute the project.
