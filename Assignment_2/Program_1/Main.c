@@ -35,5 +35,6 @@ int main(int argc,char *argv[])
 			printf("%s opened successfully with File Descriptor : %d\n",argv[1],iFd);
 		}
 	}
+	close(iFd);
 	return 0;
 }
