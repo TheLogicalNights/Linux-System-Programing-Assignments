@@ -91,6 +91,6 @@ int main(int argc,char *argv[])
 		printf("Error : %s dosn't exist\n",argv[1]);
 		return -1;
 	}
-	
+	close(iFd);
 	return 0;
 }
