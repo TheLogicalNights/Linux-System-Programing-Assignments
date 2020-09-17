@@ -95,5 +95,6 @@ int main(int argc,char *argv[])
 			 }
 			 break;
 	}
+	close(iFd);
 	return 0;
 }
