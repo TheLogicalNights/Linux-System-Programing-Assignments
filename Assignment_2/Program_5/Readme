@@ -1,0 +1,1 @@
+This is simple which open regular file in read mode and reads the specific bytes given by the user from that file.Filename and no_of_bytes should be given as command line argument.This project use make commands to build and execute.Use <make build> to build the project and use <make help> for more details about how to execute the project.
