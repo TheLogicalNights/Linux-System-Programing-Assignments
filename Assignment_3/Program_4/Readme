@@ -1,0 +1,1 @@
+This is simple project which copy data of one file into another file.File names should be given as command line argument.This projects use make commands to build and execute.Use <make> or <make build> commad to build the project.Use <make help> for help and more details about how to give commands and execute the project. 

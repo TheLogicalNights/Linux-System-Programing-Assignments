@@ -1,0 +1,1 @@
+This is file1 and we are going to copy this data into file2.
