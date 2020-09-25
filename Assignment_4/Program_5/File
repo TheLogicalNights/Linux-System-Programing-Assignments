@@ -1,0 +1,322 @@
+Chapter 1. Introduction
+to Programming
+In This Chapter
+In this chapter we will take a look at the basic programming terminology
+and we will write our first C# program. We will familiarize ourselves with
+programming – what it means and its connection to computers and
+programming languages.
+Briefly, we will review the different stages of software development.
+We will introduce the C# language, the .NET platform and the different
+Microsoft technologies used in software development. We will examine what
+tools we need to program in C#. We will use the C# language to write our
+first computer program, compile and run it from the command line as well as
+from Microsoft Visual Studio integrated development environment. We will
+review the MSDN Library – the documentation of the .NET Framework. It will
+help us with our exploration of the features of the platform and the language.
+What Does It Mean "To Program"?
+Nowadays computers have become irreplaceable. We use them to solve
+complex problems at the workplace, look for driving directions, have fun and
+communicate. They have countless applications in the business world, the
+entertainment industry, telecommunications and finance. It’s not an over-
+statement to say that computers build the neural system of our contemporary
+society and it is difficult to imagine its existence without them.
+Despite the fact that computers are so wide-spread, few people know how
+they really work. In reality, it is not the computers, but the programs (the
+software), which run on them, that matter. It is the software that makes
+computers valuable to the end-user, allowing for many different types of
+services that change our lives.
+How Do Computers Process Information?
+In order to understand what it means to program, we can roughly compare a
+computer and its operating system to a large factory with all its workshops,
+warehouses and transportation. This rough comparison makes it easier to
+imagine the level of complexity present in a contemporary computer. There
+are many processes running on a computer, and they represent the
+workshops and production lines in a factory. The hard drive, along with the
+files on it, and the operating memory (RAM) represent the warehouses, and
+the different protocols are the transportation systems, which provide the input
+and output of information.
+The different types of products made in a factory come from different
+workshops. They use raw materials from the warehouses and store the
+completed goods back in them. The raw materials are transported to the
+warehouses by the suppliers and the completed product is transported from
+the warehouses to the outlets. To accomplish this, different types of
+transportation are used. Raw materials enter the factory, go through different
+stages of processing and leave the factory transformed into products. Each
+factory converts the raw materials into a product ready for consumption.
+The computer is a machine for information processing. Unlike the
+factory in our comparison, for the computer, the raw material and the product
+are the same thing – information. In most cases, the input information is
+taken from any of the warehouses (files or RAM), to where it has been
+previously transported. Afterwards, it is processed by one or more processes
+and it comes out modified as a new product. Web based applications serve as
+a prime example. They use HTTP to transfer raw materials and products, and
+information processing usually has to do with extracting content from a
+database and preparing it for visualization in the form of HTML.
+Managing the Computer
+The whole process of manufacturing products in a factory has many levels of
+management. The separate machines and assembly lines have operators, the
+workshops have managers and the factory as a whole is run by general
+executives. Every one of them controls processes on a different level. The
+machine operators serve on the lowest level – they control the machines with
+buttons and levers. The next level is reserved for the workshop managers.
+And on the highest level, the general executives manage the different aspects
+of the manufacturing processes in the factory. They do that by issuing orders.
+It is the same with computers and software – they have many levels of
+management and control. The lowest level is managed by the processor and
+its registries (this is accomplished by using machine programs at a low level)
+– we can compare it to controlling the machines in the workshops. The
+different responsibilities of the operating system (Windows 7 for example),
+like the file system, peripheral devices, users and communication protocols,
+are controlled at a higher level – we can compare it to the management of the
+different workshops and departments in the factory. At the highest level, we
+can find the application software. It runs a whole ensemble of processes,
+which require a huge amount of processor operations. This is the level of the
+general executives, who run the whole factory in order to maximize the
+utilization of the resources and to produce quality results.Chapter 1. Introduction to Programming
+71
+The Essence of Programming
+The essence of programming is to control the work of the computer on all
+levels. This is done with the help of "orders" and "commands" from the
+programmer, also known as programming instructions. To "program" means
+to organize the work of the computer through sequences of
+instructions. These commands (instructions) are given in written form and
+are implicitly followed by the computer (respectively by the operating system,
+the CPU and the peripheral devices).
+To “program” means writing sequences of instructions in
+order to organize the work of the computer to perform
+something. These sequences of instructions are called
+“computer programs” or “scripts”.
+A sequence of steps to achieve, complete some work or obtain some result is
+called an algorithm. This is how programming is related to algorithms.
+Programming involves describing what you want the computer to do by a
+sequence of steps, by algorithms.
+Programmers are the people who create these instructions, which control
+computers. These instructions are called programs. Numerous programs
+exist, and they are created using different kinds of programming
+languages. Each language is oriented towards controlling the computer on a
+different level. There are languages oriented towards the machine level (the
+lowest) – Assembler for example. Others are most useful at the system level
+(interacting with the operating system), like C. There are also high level
+languages used to create application programs. Such languages include C#,
+Java, C++, PHP, Visual Basic, Python, Ruby, Perl, JavaScript and others.
+In this book we will take a look at the C# programming language – a
+modern high level language. When a programmer uses C#, he gives
+commands in high level, like from the position of a general executive in a
+factory. The instructions given in the form of programs written in C# can
+access and control almost all computer resources directly or via the operating
+system. Before we learn how to write simple C# programs, let’s take a good
+look at the different stages of software development, because programming,
+despite being the most important stage, is not the only one.
+Stages in Software Development
+Writing software can be a very complex and time-consuming task, involving a
+whole team of software engineers and other specialists. As a result, many
+methods and practices, which make the life of programmers easier, have
+emerged. All they have in common is that the development of each software
+product goes through several different stages:
+- Gathering the requirements for the product and creating a task;
+- Planning and preparing the architecture and design;72
+Fundamentals of Computer Programming with C#
+- Implementation (includes the writing of program code);
+- Product trials (testing);
+- Deployment and exploitation;
+- Support.
+Implementation, testing, deployment and support are mostly accomplished
+using programming.
+Gathering the Requirements
+In the beginning, only the idea for a certain product exists. It includes a list of
+requirements, which define actions by the user and the computer. In the
+general case, these actions make already existing activities easier –
+calculating salaries, calculating ballistic trajectories or searching for the
+shortest route on Google maps are some examples. In many cases the
+software implements a previously nonexistent functionality such as
+automation of a certain activity.
+The requirements for the product are usually defined in the form of
+documentation, written in English or any other language. There is no
+programming done at this stage. The requirements are defined by experts,
+who are familiar with the problems in a certain field. They can also write them
+up in such a way that they are easy to understand by the programmers. In
+the general case, these experts are not programming specialists, and they are
+called business analysts.
+Planning and Preparing the Architecture and Design
+After all the requirements have been gathered comes the planning stage. At
+this stage, a technical plan for the implementation of the project is created,
+describing the platforms, technologies and the initial architecture (design) of
+the program. This step includes a fair amount of creative work, which is done
+by software engineers with a lot of experience. They are sometimes called
+software architects. According to the requirements, the following parts are
+chosen:
+- The type of the application – for example console application, desktop
+application (GUI, Graphical User Interface application), client-server
+application, Web application, Rich Internet Application (RIA), mobile
+application, peer-to-peer application or other;
+- The architecture of the software – for example single layer, double
+layer, triple layer, multi-layer or SOA architecture;
+- The programming language most suitable for the implementation –
+for example C#, Java, PHP, Python, Ruby, JavaScript or C++, or a
+combination of different languages;
+- The technologies that will be used: platform (Microsoft .NET, Java EE,
+LAMP or another), database server (Oracle, SQL Server, MySQL, NoSQLChapter 1. Introduction to Programming
+73
+database or another), technologies for the user interface (Flash,
+JavaServer Faces, Eclipse RCP, ASP.NET, Windows Forms, Silverlight,
+WPF or another), technologies for data access (for example Hibernate,
+JPA or ADO.NET Entity Framework), reporting technologies (SQL Server
+Reporting Services, Jasper Reports or another) and many other
+combinations of technologies that will be used for the implementation of
+the various parts of the software system.
+- The development frameworks that will simplify the development, e.g.
+ASP.NET MVC (for .NET), Knockout.js (for JavaScript), Rails (for Ruby),
+Django (for Python) and many others.
+- The number and skills of the people who will be part of the
+development team (big and serious projects are done by large and
+experienced teams of developers);
+- The development plan – separating the functionality in stages,
+resources and deadlines for each stage.
+- Others (size of the
+communication etc.).
+team,
+locality
+of
+the
+team,
+methods
+of
+Although there are many rules facilitating the correct analysis and planning, a
+fair amount of intuition and insight is required at this stage. This step
+predetermines the further advancement of the development process. There is
+no programming done at this stage, only preparation.
+Implementation
+The stage, most closely connected with programming, is the implementation
+stage. At this phase, the program (application) is implemented (written)
+according to the given task, design and architecture. Programmers
+participate by writing the program (source) code. The other stages can
+either be short or completely skipped when creating a small project, but the
+implementation always presents; otherwise the process is not software
+development. This book is dedicated mainly to describing the skills used
+during implementation – creating a programmer’s mindset and building the
+knowledge to use all the resources provided by the C# language and the .NET
+platform, in order to create software applications.
+Product Testing
+Product testing is a very important stage of software development. Its
+purpose is to make sure that all the requirements are strictly followed and
+covered. This process can be implemented manually, but the preferred way to
+do it is by automated tests. These tests are small programs, which
+automate the trials as much as possible. There are parts of the functionality
+that are very hard to automate, which is why product trials include automated
+as well as manual procedures to ensure the quality of the code.74
+Fundamentals of Computer Programming with C#
+The testing (trials) process is implemented by quality assurance engineers
+(QAs). They work closely with the programmers to find and correct errors
+(bugs) in the software. At this stage, it is a priority to find defects in the code
+and almost no new code is written.
+Many defects and errors are usually found during the testing stage and the
+program is sent back to the implantation stage. These two stages are very
+closely tied and it is common for a software product to switch between them
+many times before it covers all the requirements and is ready for the
+deployment and usage stages.
+Deployment and Operation
+Deployment is the process which puts a given software product into
+exploitation. If the product is complex and serves many people, this process
+can be the slowest and most expensive one. For smaller programs this is a
+relatively quick and painless process. In the most common case, a special
+program, called installer, is developed. It ensures the quick and easy
+installation of the product. If the product is to be deployed at a large
+corporation with tens of thousands of copies, additional supporting software is
+developed just for the deployment. After the deployment is successfully
+completed, the product is ready for operation. The next step is to train
+employees to use it.
+An example would be the deployment of a new version of Microsoft Windows
+in the state administration. This includes installation and configuration of
+the software as well as training employees how to use it.
+The deployment is usually done by the team who has worked on the software
+or by trained deployment specialists. They can be system administrators,
+database administrators (DBA), system engineers, specialized consultants and
+others. At this stage, almost no new code is written but the existing code is
+tweaked and configured until it covers all the specific requirements for a
+successful deployment.
+Technical Support
+During the exploitation process, it is inevitable that problems will appear.
+They may be caused by many factors – errors in the software, incorrect usage
+or faulty configuration, but most problems occur when the users change their
+requirements. As a result of these problems, the software loses its abilities to
+solve the business task it was created for. This requires additional
+involvement by the developers and the support experts. The support
+process usually continues throughout the whole life-cycle of the software
+product, regardless of how good it is.
+The support is carried out by the development team and by specially trained
+support experts. Depending on the changes made, many different people
+may be involved in the process – business analysts, architects, programmers,
+QA engineers, administrators and others.Chapter 1. Introduction to Programming
+75
+For example, if we take a look at a software program that calculates salaries,
+it will need to be updated every time the tax legislation, which concerns the
+serviced accounting process, is changed. The support team’s intervention will
+be needed if, for example, the hardware of the end user is changed because
+the software will have to be installed and configured again.
+Documentation
+The documentation stage is not a separate stage but accompanies all the
+other stages. Documentation is an important part of software development
+and aims to pass knowledge between the different participants in the
+development and support of a software product. Information is passed along
+between different stages as well as within a single stage. The development
+documentation is usually created by the developers (architects, program-
+mers, QA engineers and others) and represents a combination of documents.
+Software Development Is More than Just Coding
+As we saw, software development is much more than just coding (writing
+code), and it includes a number of other processes such as: requirements
+analysis, design, planning, testing and support, which require a wide variety
+of specialists called software engineers. Programming is just a small, but
+very essential part of software development.
+In this book we will focus solely on programming, because it is the only
+process, of the above, without which, we cannot develop software.
+Our First C# Program
+Before we continue with an in depth description of the C# language and the
+.NET platform, let’s take a look at a simple example, illustrating how a
+program written in C# looks like:
+class HelloCSharp
+{
+static void Main(string[] args)
+{
+System.Console.WriteLine("Hello C#!");
+}
+}
+The only thing this program does is to print the message "Hello, C#!" on
+the default output. It is still early to execute it, which is why we will only take
+a look at its structure. Later we will describe in full how to compile and run a
+given program from the command prompt as well as from a development
+environment.76
+Fundamentals of Computer Programming with C#
+How Does Our First C# Program Work?
+Our first program consists of three logical parts:
+- Definition of a class HelloCSharp ;
+- Definition of a method Main() ;
+- Contents of the method Main() .
+Defining a Class
+On the first line of our program we define a class called HelloCSharp . The
+simplest definition of a class consists of the keyword class , followed by its
+name. In our case the name of the class is HelloCSharp . The content of the
+class is located in a block of program lines, surrounded by curly brackets: {} .
+Defining the Main() Method
+On the third line we define a method with the name Main() , which is the
+starting point for our program. Every program written in C# starts from a
+Main() method with the following title (signature):
+static void Main(string[] args)
+The method must be declared as shown above, it must be static and void , it
+must have a name Main and as a list of parameters it must have only one
+parameter of type array of string . In our example the parameter is called
+args but that is not mandatory. This parameter is not used in most cases so it
+can be omitted (it is optional). In that case the entry point of the program can
+be simplified and will look like this:
+static void Main()
+If any of the aforementioned requirements is not met, the program will
+compile but it will not start because the starting point is not defined correctly.
+Contents of the Main() Method
+The content of every method is found after its signature, surrounded by
+opening and closing curly brackets. On the next line of our sample program
+we use the system object System.Console and its method WriteLine() to
+print a message on the default output (the console), in this case "Hello, C#!".
+In the Main() method we can write a random sequence of expressions and
+they will be executed in the order we assigned to them.
+More information about expressions can be found in chapter "Operators and
+Expressions", working with the console is described in chapter "Console Input
+and Output", classes and methods can be found in chapter "Defining Classes".
