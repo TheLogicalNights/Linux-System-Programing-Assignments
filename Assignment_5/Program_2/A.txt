@@ -1,0 +1,21 @@
+Employee Id :-101
+Employee Name :-Swapnil Ramesh Adhav
+Employee Project :-File subsystems
+Employee Gender :-Male
+Employee Salary :-100000.000000
+
+
+Employee Id :-102
+Employee Name :-Aniket Dhole
+Employee Project :-Customize database in C
+Employee Gender :-Male
+Employee Salary :-100000.000000
+
+
+Employee Id :-103
+Employee Name :-Sagar Gaikwad
+Employee Project :-File subsystems
+Employee Gender :-Male
+Employee Salary :-100000.000000
+
+
