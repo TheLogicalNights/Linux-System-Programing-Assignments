@@ -1,0 +1,1 @@
+This is simple project which copy 10 bytes from each file from diectory into new created file Demo.Name of directory should be given as command line argument.This project use make commands to build and execute.Use <make> or <make build> commad to build the project.Use <make help> for help and more details about how to give commands and execute the project. 
