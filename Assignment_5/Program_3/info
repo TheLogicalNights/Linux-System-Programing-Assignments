@@ -1,0 +1,32 @@
+File Name : Makefile
+iNode Numbner : 5505812
+File type : Regular File
+File Size : 273
+Block Size : 4096
+Allocated Blocks : 8
+Hard Links : 1
+
+File Name : A.txt
+iNode Numbner : 5505810
+File type : Regular File
+File Size : 434
+Block Size : 4096
+Allocated Blocks : 8
+Hard Links : 1
+
+File Name : Main.c
+iNode Numbner : 5505811
+File type : Regular File
+File Size : 752
+Block Size : 4096
+Allocated Blocks : 8
+Hard Links : 1
+
+File Name : Readme
+iNode Numbner : 5505809
+File type : Regular File
+File Size : 365
+Block Size : 4096
+Allocated Blocks : 8
+Hard Links : 1
+
