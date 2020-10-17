@@ -1,0 +1,1 @@
+This is simple project which creats process-1, process-1 creates process-2 and it internally creates process-3.This project use make commands to build and execute.Use <make> or <make build> commad to build the project.Use <make help> for help and more details about how to give commands and execute the project. 
