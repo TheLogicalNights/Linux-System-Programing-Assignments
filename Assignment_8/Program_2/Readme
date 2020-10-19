@@ -1,0 +1,4 @@
+This is simple project which creates two processess.
+Process 1 count number of capital characters from demo.txt file. And process 2 count
+number of capital characters from hello.txt file. Both the processess writes its count in
+count.txt file.This project use make commands to build and execute.Use <make> or <make build> commad to build the project.Use <make help> for help and more details about how to give commands and execute the project. 

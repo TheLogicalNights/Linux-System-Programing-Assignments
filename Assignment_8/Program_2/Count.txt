@@ -1,0 +1,2 @@
+Capital count from A.txt is : 36
+Capital count from B.txt is : 36
