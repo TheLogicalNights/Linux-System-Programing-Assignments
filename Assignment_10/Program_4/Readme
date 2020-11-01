@@ -1,0 +1,2 @@
+This is simple project which creates two thread , and by using appropriate synchronization technique avoid the scheduling problem.
+This project use make commands to build and execute.Use <make> or <make build> commad to build the project.Use <make help> for help and more details about how to give commands and execute the project. 
