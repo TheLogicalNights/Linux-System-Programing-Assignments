@@ -1,0 +1,2 @@
+This is simple project which is used to create unnamed pipe. Parent process creates new child process and both the processess will communicate with each other.
+This project use make commands to build and execute.Use <make> or <make build> commad to build the project.Use <make help> for help and more details about how to give commands and execute the project. 
