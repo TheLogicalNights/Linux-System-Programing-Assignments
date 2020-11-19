@@ -1,0 +1,2 @@
+This is simple project which creates two process as reader and writer and that processess should communicate with each other using FIFO.
+This project use make commands to build and execute.Use <make> or <make build> commad to build the project.Use <make help> for help and more details about how to give commands and execute the project. 
